@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  margin: 112px 0 112px 0;
+  gap: 56px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.TRAVELEXPERIENCE {
+  position: absolute;
+  z-index: 1;
+  top: -56px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  width: 360px;
+  gap: 8px;
+}
+
+.card:nth-child(3) {
+  position: relative;
+  top: 48px;
+}
+
+.image {
+  width: 360px;
+  height: 720px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -170px;
+}
+
+.label {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.desc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.more {
+  font-weight: 600;
+}
+
+.card2 {
+  width: 360px;
+  gap: 8px;
+}
+
+.card2:nth-child() {
+  top: 48px;
+}
+
+.image2 {
+  width: 360px;
+  height: 720px;
+}
+
+.image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.label2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.desc2 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.more2 {
+  font-weight: 600;
+}
+
+.card3 {
+  width: 360px;
+  gap: 8px;
+}
+
+.card3:nth-child():nth-child() {
+  top: 48px;
+}
+
+.image3 {
+  width: 360px;
+  height: 720px;
+}
+
+.image3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -550px;
+}
+
+.label3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.desc3 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.more3 {
+  font-weight: 600;
+}
